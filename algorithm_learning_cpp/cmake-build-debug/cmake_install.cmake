@@ -1,8 +1,8 @@
-# Install script for directory: /Users/yaowenfeng/Documents/cpp_project/algorithm_learning_cpp/algorithm_learning_cpp
+# Install script for directory: F:/github/algorithm_learning_cpp/algorithm_learning_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/algorithm_learning_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yaowenfeng/Documents/cpp_project/algorithm_learning_cpp/algorithm_learning_cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/github/algorithm_learning_cpp/algorithm_learning_cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
