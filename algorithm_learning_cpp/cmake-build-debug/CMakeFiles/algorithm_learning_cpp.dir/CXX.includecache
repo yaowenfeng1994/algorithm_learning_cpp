@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yaowenfeng/Documents/cpp_project/algorithm_learning_cpp/algorithm_learning_cpp/leetcode/dynamic_programming/dp.h
+iostream
+-
+vector
+-
+
+/Users/yaowenfeng/Documents/cpp_project/algorithm_learning_cpp/algorithm_learning_cpp/main.cpp
+iostream
+-
+vector
+-
+leetcode/dynamic_programming/dp.h
+/Users/yaowenfeng/Documents/cpp_project/algorithm_learning_cpp/algorithm_learning_cpp/leetcode/dynamic_programming/dp.h
+

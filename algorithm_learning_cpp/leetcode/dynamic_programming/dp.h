@@ -3,6 +3,7 @@
 //
 #ifndef ALGORITHM_LEARNING_CPP_DP_H
 #define ALGORITHM_LEARNING_CPP_DP_H
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -10,7 +11,7 @@ class dynamicProgramming {
 public:
     int houseRobber(vector<int> &nums);
     int minCostClimbingStairs(vector<int>& cost);
-    int cutRod(int n);
+    int cutRod(int memo[], int n);
 };
 
 
