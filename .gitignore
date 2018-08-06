@@ -1,2 +1,14 @@
 
 *.xml
+
+*.cmake
+
+*.log
+
+*.txt
+
+*.make
+
+*.internal
+
+*.includecache

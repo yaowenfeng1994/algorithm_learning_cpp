@@ -13,7 +13,7 @@ int main() {
 
 //    vector<int>a = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
 //    int b = dynamicProgramming1.minCostClimbingStairs(a);
-    int memo[11] = {};
-    int b = dynamicProgramming1.cutRod(memo, 10);
-    cout << b;
+//    int memo[11] = {};
+//    int b = dynamicProgramming1.cutRod(memo, 10);
+//    cout << b;
 }
