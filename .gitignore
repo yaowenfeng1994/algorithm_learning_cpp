@@ -12,3 +12,5 @@
 *.internal
 
 *.includecache
+
+algorithm_learning_cpp/cmake-build-debug/
