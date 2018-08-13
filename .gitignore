@@ -1,8 +1,14 @@
 
 *.xml
 
-algorithm_learning_cpp/cmake-build-debug/CMakeFiles/algorithm_learning_cpp\.dir/
+*.cmake
 
-algorithm_learning_cpp/cmake-build-debug/
+*.log
 
-*.iml
+*.txt
+
+*.make
+
+*.internal
+
+*.includecache
