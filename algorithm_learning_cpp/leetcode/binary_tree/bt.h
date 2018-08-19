@@ -18,7 +18,7 @@ struct TreeNode {
 
 class binaryTree {
 public:
-    TreeNode* initTree(TreeNode* root);
+    TreeNode* initTree(vector<int> &list);
     TreeNode* invertTree(TreeNode* root);
 };
 
