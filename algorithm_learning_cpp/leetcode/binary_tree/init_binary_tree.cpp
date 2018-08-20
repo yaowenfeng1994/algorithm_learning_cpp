@@ -11,36 +11,40 @@ TreeNode* binaryTree::initTree(vector<int> &list)
     {
         return NULL;
     }
-    vector<int*> listP(list.size());
-    vector<TreeNode*> listNodeP(list.size());
-    for (int i=0;i<list.size();i++)
+    TreeNode *root = new TreeNode;
+    vector<TreeNode*> listNode(list.size()+1);
+    listNode[0] = NULL;
+    for (int i=1;i<=list.size();i++)
     {
-        listP[i] = &list[i];
-//        cout << listP[i] << endl;
+        if (i==1)
+        {
+            root->val = list[i-1];
+            listNode[i] = root;
+        } else {
+            TreeNode *node = new TreeNode;
+            node->val = list[i-1];
+            listNode[i] = node;
+        }
     }
-    TreeNode* node;
-    node->val = list[0];
-//    cout << node->val << endl;
-//    for (int j=0;j<listP.size();j++)
-//    {
-//        node->val = list[j];
-//        cout << node->val <<endl;
-//        if (2*j>listP.size())
-//        {
-//            node->left = NULL;
-//        }
-//        else
-//        {
-//            node->left = *listP[2*j];
-//        }
-//        if ((2*j+1)>listP.size())
-//        {
-//            node->right = NULL;
-//        }
-//        else
-//        {
-//            node->right = *listP[2*j+1];
-//        }
-//    }
-    return NULL;
+
+    for (int j=1;j<listNode.size();j++)
+    {
+        if (2*j>listNode.size()-1)
+        {
+            listNode[j]->left = NULL;
+        }
+        else
+        {
+            listNode[j]->left = listNode[2*j];
+        }
+        if ((2*j+1)>listNode.size()-1)
+        {
+            listNode[j]->right = NULL;
+        }
+        else
+        {
+            listNode[j]->right = listNode[2*j+1];
+        }
+    }
+    return root;
 }

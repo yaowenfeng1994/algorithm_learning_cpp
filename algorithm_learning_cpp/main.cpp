@@ -18,12 +18,12 @@ int main() {
     cout << b;*/
 
     binaryTree binaryTree1;
-//    TreeNode *root = NULL;
-//    TreeNode *root1 = binaryTree1.invertTree(root);
-//    cout << root1;
-    vector<int>list = {2,1,3,1,1,2};
+    vector<int>list = {2,4,3,5,7,9,11};
     TreeNode *root1 = binaryTree1.initTree(list);
-    cout << root1;
+    cout << root1->right->right->val << endl;
+//        TreeNode *root = NULL;
+    binaryTree1.invertTree(root1);
+    cout << root1->right->left->val << endl;
 
 /*    sort sort1;
     vector<int>list = {2,8,7,1,3,5,6,4,11};
