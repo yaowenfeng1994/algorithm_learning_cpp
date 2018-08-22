@@ -6,6 +6,7 @@
 #define ALGORITHM_LEARNING_CPP_BT_H
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 struct TreeNode {
@@ -20,6 +21,7 @@ class binaryTree {
 public:
     TreeNode* initTree(vector<int> &list);
     TreeNode* invertTree(TreeNode* root);
+    vector<int> inorderTraversal(TreeNode* root);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H
