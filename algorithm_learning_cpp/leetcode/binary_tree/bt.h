@@ -22,6 +22,7 @@ public:
     TreeNode* initTree(vector<int> &list);
     TreeNode* invertTree(TreeNode* root);
     vector<int> inorderTraversal(TreeNode* root);
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H
