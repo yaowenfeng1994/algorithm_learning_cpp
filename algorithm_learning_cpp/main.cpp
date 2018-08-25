@@ -17,24 +17,25 @@ int main() {
     int b = dynamicProgramming1.cutRod(memo, 4);
     cout << b;*/
 
-    binaryTree binaryTree1;
-    vector<int>list = {2,4,3,5,7,9,11};
-    TreeNode *root1 = binaryTree1.initTree(list);
+//    binaryTree binaryTree1;
+//    vector<int>list = {2,4,3,5,7,9,11};
+//    TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
 //    cout << root1->right->left->val << endl;
-    vector<int>list1 = binaryTree1.inorderTraversal(root1);
-    for (vector<int>::iterator iter=list1.begin();iter!=list1.end();iter++)
-    {
-        cout << *iter << endl;
-    }
+//    vector<int>list1 = binaryTree1.inorderTraversal(root1);
+//    for (vector<int>::iterator iter=list1.begin();iter!=list1.end();iter++)
+//    {
+//        cout << *iter << endl;
+//    }
 
-/*    sort sort1;
+    sort sort1;
     vector<int>list = {2,8,7,1,3,5,6,4,11};
-    vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
+//    vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
+    vector<int>newList = sort1.insertSort(list);
     for (int i=0;i<newList.size();i++)
     {
         cout << newList[i] << endl;
-    }*/
+    }
     return 0;
 }

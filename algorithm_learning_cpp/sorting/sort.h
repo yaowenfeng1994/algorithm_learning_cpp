@@ -11,6 +11,7 @@ using namespace std;
 class sort {
 public:
     vector<int> quickSort(vector<int> &list,int start,int end);
+    vector<int> insertSort(vector<int> &list);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_SORT_H

@@ -1,5 +1,5 @@
 //
-// Created by Administrator on 2018/8/18 0018.
+// Created by 姚文锋 on 2018/8/18 0018.
 //
 //算法导论，快速排序
 #include "sort.h"
