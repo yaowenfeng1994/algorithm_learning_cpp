@@ -23,6 +23,7 @@ public:
     TreeNode* invertTree(TreeNode* root);
     vector<int> inorderTraversal(TreeNode* root);
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
+    int maxDepth(TreeNode* root);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H

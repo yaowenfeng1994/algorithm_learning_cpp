@@ -29,13 +29,18 @@ int main() {
 //        cout << *iter << endl;
 //    }
 
-    sort sort1;
-    vector<int>list = {2,8,7,1,3,5,6,4,11};
+//    sort sort1;
+//    vector<int>list = {2,8,7,1,3,5,6,4,11};
 //    vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
-    vector<int>newList = sort1.insertSort(list);
-    for (int i=0;i<newList.size();i++)
-    {
-        cout << newList[i] << endl;
-    }
-    return 0;
+//    vector<int>newList = sort1.insertSort(list);
+//    for (int i=0;i<newList.size();i++)
+//    {
+//        cout << newList[i] << endl;
+//    }
+//    return 0;
+    char *a = new char[3];
+    a = "hello";
+    cout << *a << endl;
+    delete []a;
+    cout << a << endl;
 }
