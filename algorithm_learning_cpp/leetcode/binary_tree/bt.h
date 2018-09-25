@@ -18,12 +18,18 @@ struct TreeNode {
 
 
 class binaryTree {
+    vector<int> list;
 public:
     TreeNode* initTree(vector<int> &list);
     TreeNode* invertTree(TreeNode* root);
     vector<int> inorderTraversal(TreeNode* root);
+    vector<int> preorderTraversal(TreeNode* root);
+    vector<int> postorderTraversal(TreeNode* root);
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
     int maxDepth(TreeNode* root);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H
+
+
+

@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {
 
-    dynamicProgramming dynamicProgramming1;
-    vector<int>a = {-2,1};
+//    dynamicProgramming dynamicProgramming1;
+//    vector<int>a = {-2,1};
 //    int b = dynamicProgramming1.houseRobber(a);
 //    vector<int>a = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
 //    int b = dynamicProgramming1.minCostClimbingStairs(a);
@@ -21,25 +21,25 @@ int main() {
 //    cout << b << endl;
 //    int b = dynamicProgramming1.maxSubArray(a);
 //    cout << b << endl;
-    vector<int>b= dynamicProgramming1.countBits(5);
-    for (int i=0;i<b.size();i++)
-    {
-        cout << b[i] << endl;
-    }
+//    vector<int>b= dynamicProgramming1.countBits(5);
+//    for (int i=0;i<b.size();i++)
+//    {
+//        cout << b[i] << endl;
+//    }
 
-/*    binaryTree binaryTree1;
+    binaryTree binaryTree1;
     vector<int>list = {2,4,3,5,7,9,11};
     TreeNode *root1 = binaryTree1.initTree(list);
 
-    binaryTree1.invertTree(root1);
-    cout << root1->right->left->val << endl;
-    vector<int>list1 = binaryTree1.inorderTraversal(root1);
+//    binaryTree1.invertTree(root1);
+//    vector<int>list1 = binaryTree1.inorderTraversal(root1);
+    vector<int>list1 = binaryTree1.preorderTraversal(root1);
     for (vector<int>::iterator iter=list1.begin();iter!=list1.end();iter++)
     {
         cout << *iter << endl;
     }
 
-    sort sort1;
+/*    sort sort1;
     vector<int>list = {2,8,7,1,3,5,6,4,11};
     vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
     vector<int>newList = sort1.insertSort(list);
@@ -48,11 +48,6 @@ int main() {
         cout << newList[i] << endl;
     }
     return 0;*/
-/*    char *a = new char[3];
-    a = "hello";
-    cout << *a << endl;
-    delete []a;
-    cout << a << endl;*/
 
 /*    hashTable hashTable1;
     vector<string> wordList = {"adsdf","sfd"};

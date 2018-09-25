@@ -5,7 +5,6 @@
 #include "bt.h"
 using namespace std;
 
-vector<int> list;
 vector<int> binaryTree::inorderTraversal(TreeNode* root)
 {
 #if 0
