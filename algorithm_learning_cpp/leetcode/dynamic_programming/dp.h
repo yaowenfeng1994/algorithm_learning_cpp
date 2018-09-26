@@ -12,6 +12,9 @@ public:
     int houseRobber(vector<int> &nums);
     int minCostClimbingStairs(vector<int>& cost);
     int cutRod(int memo[], int n);
+    bool canWinNim(int n);
+    int maxSubArray(vector<int>& nums);
+    vector<int> countBits(int num);
 };
 
 

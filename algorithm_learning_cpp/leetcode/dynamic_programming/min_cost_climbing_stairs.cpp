@@ -5,7 +5,7 @@
 #include "dp.h"
 using namespace std;
 
-int dynamicProgramming::minCostClimbingStairs(vector<int> &cost) {
+int dynamicProgramming::minCostClimbingStairs(vector<int>& cost) {
     if (cost.empty()) return 0;
     vector<int> dp (cost.size()+1, 0);
     dp[0] = cost[0];
