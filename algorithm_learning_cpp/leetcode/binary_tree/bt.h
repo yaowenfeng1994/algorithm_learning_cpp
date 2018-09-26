@@ -25,6 +25,7 @@ public:
     vector<int> inorderTraversal(TreeNode* root);
     vector<int> preorderTraversal(TreeNode* root);
     vector<int> postorderTraversal(TreeNode* root);
+    vector<vector<int>> levelOrder(TreeNode* root)
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
     int maxDepth(TreeNode* root);
 };

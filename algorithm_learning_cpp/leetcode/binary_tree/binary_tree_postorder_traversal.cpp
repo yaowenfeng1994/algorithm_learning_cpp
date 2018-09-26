@@ -9,7 +9,20 @@ vector<int> binaryTree::postorderTraversal(TreeNode* root)
 {
 #if 1
     // 递归版本
-
+    if (root == NULL)
+    {
+        return list;
+    }
+    if (root->left != NULL)
+    {
+        postorderTraversal(root->left);
+    }
+    if (root->right != NULL)
+    {
+        postorderTraversal(root->right);
+    }
+    list.push_back(root->val);
+    return list;
 #endif
 #if 0
 

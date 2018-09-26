@@ -33,7 +33,8 @@ int main() {
 
 //    binaryTree1.invertTree(root1);
 //    vector<int>list1 = binaryTree1.inorderTraversal(root1);
-    vector<int>list1 = binaryTree1.preorderTraversal(root1);
+//    vector<int>list1 = binaryTree1.preorderTraversal(root1);
+    vector<int>list1 = binaryTree1.postorderTraversal(root1);
     for (vector<int>::iterator iter=list1.begin();iter!=list1.end();iter++)
     {
         cout << *iter << endl;
