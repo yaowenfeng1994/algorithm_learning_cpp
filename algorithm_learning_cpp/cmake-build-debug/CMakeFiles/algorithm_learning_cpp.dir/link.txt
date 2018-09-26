@@ -1,3 +1,0 @@
-"F:\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\algorithm_learning_cpp.dir/objects.a
-F:\MinGW\bin\ar.exe cr CMakeFiles\algorithm_learning_cpp.dir/objects.a @CMakeFiles\algorithm_learning_cpp.dir\objects1.rsp
-F:\MinGW\bin\c++.exe -g   -Wl,--whole-archive CMakeFiles\algorithm_learning_cpp.dir/objects.a -Wl,--no-whole-archive  -o algorithm_learning_cpp.exe -Wl,--out-implib,libalgorithm_learning_cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algorithm_learning_cpp.dir\linklibs.rsp
