@@ -28,7 +28,7 @@ int main() {
 //    }
 
     binaryTree binaryTree1;
-    vector<int>list = {2,3, 3};
+    vector<int> list = {2, 3, 3};
     TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
