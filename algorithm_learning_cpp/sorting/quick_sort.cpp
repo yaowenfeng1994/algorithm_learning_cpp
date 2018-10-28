@@ -5,7 +5,7 @@
 #include "sort.h"
 using namespace std;
 
-vector<int> sort::quickSort(vector<int> &list,int start,int end)
+vector<int> Sort::quickSort(vector<int> &list,int start,int end)
 {
     if (start < end)
     {
@@ -25,10 +25,11 @@ vector<int> sort::quickSort(vector<int> &list,int start,int end)
         tmp= list[index+1];
         list[index+1]=list[end];
         list[end]=tmp;
-        // newFlag左边的数字全都是小于list[newFlag]，右边全是大于
+        // newFlag左边的数字全都是小于list[newFlag]，右边全是大于等于
         int newFlag = index+1;
         quickSort(list, start, newFlag-1);
         quickSort(list, newFlag+1, end);
-        return list;
+//        return list;
     }
+    return list;
 }

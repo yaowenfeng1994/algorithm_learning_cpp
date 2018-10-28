@@ -8,7 +8,7 @@
 #include <vector>
 using namespace std;
 
-class sort {
+class Sort {
 public:
     vector<int> quickSort(vector<int> &list,int start,int end);
     vector<int> insertSort(vector<int> &list);

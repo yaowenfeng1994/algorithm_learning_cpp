@@ -27,9 +27,9 @@ int main() {
 //        cout << b[i] << endl;
 //    }
 
-    binaryTree binaryTree1;
-    vector<int>list = {2,4,3,5,7,9,11};
-    TreeNode *root1 = binaryTree1.initTree(list);
+//    binaryTree binaryTree1;
+//    vector<int>list = {2,4,3,5,7,9,11};
+//    TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
 //    vector<int>list1 = binaryTree1.inorderTraversal(root1);
@@ -40,26 +40,25 @@ int main() {
 //        cout << *iter << endl;
 //    }
 
-    vector<vector<int>>list1 = binaryTree1.levelOrder(root1);
-    for (vector<vector<int>>::iterator iter=list1.begin();iter!=list1.end();iter++)
-    {
-        vector<int>list2 = *iter;
-        for (vector<int>::iterator iter1=list2.begin();iter1!=list2.end();iter1++)
-        {
-            cout << *iter1 << ", ";
-        }
-        cout << endl;
-    }
+//    vector<vector<int>>list1 = binaryTree1.levelOrder(root1);
+//    for (vector<vector<int>>::iterator iter=list1.begin();iter!=list1.end();iter++)
+//    {
+//        vector<int>list2 = *iter;
+//        for (vector<int>::iterator iter1=list2.begin();iter1!=list2.end();iter1++)
+//        {
+//            cout << *iter1 << ", ";
+//        }
+//        cout << endl;
+//    }
 
-/*    sort sort1;
-    vector<int>list = {2,8,7,1,3,5,6,4,11};
-    vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
-    vector<int>newList = sort1.insertSort(list);
-    for (int i=0;i<newList.size();i++)
-    {
+    Sort sort1;
+    vector<int> list = {2, 8, 7, 1, 3, 5, 6, 4, 6};
+    vector<int> newList = sort1.quickSort(list, 0, int(list.size() - 1));
+//    vector<int>newList = sort1.insertSort(list);
+    for (int i = 0; i < newList.size(); i++) {
         cout << newList[i] << endl;
     }
-    return 0;*/
+    return 0;
 
 /*    hashTable hashTable1;
     vector<string> wordList = {"adsdf","sfd"};
