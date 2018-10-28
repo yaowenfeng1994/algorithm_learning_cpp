@@ -27,9 +27,9 @@ int main() {
 //        cout << b[i] << endl;
 //    }
 
-//    binaryTree binaryTree1;
-//    vector<int>list = {2,4,3,5,7,9,11};
-//    TreeNode *root1 = binaryTree1.initTree(list);
+    binaryTree binaryTree1;
+    vector<int>list = {2,3, 3};
+    TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
 //    vector<int>list1 = binaryTree1.inorderTraversal(root1);
@@ -51,14 +51,17 @@ int main() {
 //        cout << endl;
 //    }
 
-    Sort sort1;
-    vector<int> list = {2, 8, 7, 1, 3, 5, 6, 4, 6};
-    vector<int> newList = sort1.quickSort(list, 0, int(list.size() - 1));
+    bool result = binaryTree1.isSymmetric(root1);
+    cout << result << endl;
+
+//    Sort sort1;
+//    vector<int> list = {2, 8, 7, 1, 3, 5, 6, 4, 6};
+//    vector<int> newList = sort1.quickSort(list, 0, int(list.size() - 1));
 //    vector<int>newList = sort1.insertSort(list);
-    for (int i = 0; i < newList.size(); i++) {
-        cout << newList[i] << endl;
-    }
-    return 0;
+//    for (int i = 0; i < newList.size(); i++) {
+//        cout << newList[i] << endl;
+//    }
+//    return 0;
 
 /*    hashTable hashTable1;
     vector<string> wordList = {"adsdf","sfd"};

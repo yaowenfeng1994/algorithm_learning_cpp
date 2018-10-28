@@ -29,6 +29,8 @@ public:
     vector<vector<int>> levelOrder(TreeNode* root);
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
     int maxDepth(TreeNode* root);
+    bool isSymmetric(TreeNode* root);
+    bool hasPathSum(TreeNode* root, int sum);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H
