@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <list>
 #include "leetcode/dynamic_programming/dp.h"
 #include "leetcode/binary_tree/bt.h"
 #include "leetcode/hash_table/ht.h"
@@ -27,9 +28,9 @@ int main() {
 //        cout << b[i] << endl;
 //    }
 
-    binaryTree binaryTree1;
-    vector<int> list = {2, 3, 3};
-    TreeNode *root1 = binaryTree1.initTree(list);
+//    binaryTree binaryTree1;
+//    vector<int> list = {2, 3, 3};
+//    TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
 //    vector<int>list1 = binaryTree1.inorderTraversal(root1);
@@ -51,8 +52,8 @@ int main() {
 //        cout << endl;
 //    }
 
-    bool result = binaryTree1.isSymmetric(root1);
-    cout << result << endl;
+//    bool result = binaryTree1.isSymmetric(root1);
+//    cout << result << endl;
 
 //    Sort sort1;
 //    vector<int> list = {2, 8, 7, 1, 3, 5, 6, 4, 6};

@@ -30,7 +30,7 @@ public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2);
     int maxDepth(TreeNode* root);
     bool isSymmetric(TreeNode* root);
-    bool hasPathSum(TreeNode* root, int sum);
+    bool isSameTree(TreeNode* p, TreeNode* q);
 };
 
 #endif //ALGORITHM_LEARNING_CPP_BT_H
