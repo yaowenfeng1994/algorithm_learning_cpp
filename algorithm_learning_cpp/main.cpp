@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <list>
 #include "leetcode/dynamic_programming/dp.h"
 #include "leetcode/binary_tree/bt.h"
 #include "leetcode/hash_table/ht.h"
@@ -57,7 +58,7 @@ int main() {
 //    }
 
 //    binaryTree binaryTree1;
-//    vector<int>list = {1,2,2,3,4,4,3};
+//    vector<int> list = {2, 3, 3};
 //    TreeNode *root1 = binaryTree1.initTree(list);
 
 //    binaryTree1.invertTree(root1);
@@ -79,18 +80,18 @@ int main() {
 //        }
 //        cout << endl;
 //    }
+
 //    bool result = binaryTree1.isSymmetric(root1);
 //    cout << result << endl;
 
-/*    sort sort1;
-    vector<int>list = {2,8,7,1,3,5,6,4,11};
-    vector<int>newList = sort1.quickSort(list, 0, list.size()-1);
-    vector<int>newList = sort1.insertSort(list);
-    for (int i=0;i<newList.size();i++)
-    {
-        cout << newList[i] << endl;
-    }
-    return 0;*/
+//    Sort sort1;
+//    vector<int> list = {2, 8, 7, 1, 3, 5, 6, 4, 6};
+//    vector<int> newList = sort1.quickSort(list, 0, int(list.size() - 1));
+//    vector<int>newList = sort1.insertSort(list);
+//    for (int i = 0; i < newList.size(); i++) {
+//        cout << newList[i] << endl;
+//    }
+//    return 0;
 
 /*    hashTable hashTable1;
     vector<string> wordList = {"adsdf","sfd"};
