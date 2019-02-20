@@ -5,7 +5,7 @@
 #include "sort.h"
 using namespace std;
 
-vector<int> sort::insertSort(vector<int> &list)
+vector<int> Sort::insertSort(vector<int> &list)
 {
     int flag, i, j;
     for (i=1;i<list.size();i++)
